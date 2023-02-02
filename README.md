@@ -9,8 +9,8 @@ IMG_PATH: "https://image.tmdb.org/t/p/w1280"
 SEARCH_API: "https://api.themoviedb.org/3/search/movie?&api_key=<api_key>&query="
 
 Also add mongodb atlas's database username and password as :- 
-MONGO_USERNAME: "<username>"
-MONGO_PASSWORD: "<password>"
+MONGO_USERNAME: `<username>`
+MONGO_PASSWORD: `<password>`
   
   
  In your index.js change uri to your respective maongodb connect uri.
